@@ -1,0 +1,106 @@
+/* ----- Reset básico ----- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ----- Estilo general ----- */
+body {
+    font-family: "Trebuchet MS", sans-serif;
+    background-color: #d0f0c0;
+    color: #2e2e2e;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* ----- Encabezado ----- */
+header {
+    background-color: #2d6a4f;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover,
+nav a.activo {
+    color: #b5ffb5;
+}
+
+/* ----- Contenido principal ----- */
+.container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.intro {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+    max-width: 1000px;
+}
+
+.texto {
+    flex: 1 1 400px;
+    text-align: left;
+}
+
+.texto h2 {
+    color: #1b4332;
+    margin-bottom: 15px;
+    font-size: 2rem;
+}
+
+.texto p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #40916c;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: backgroun 0.3s;
+}
+
+.btn:hover {
+    background-color: #1b4332;
+}
+
+.imagen img {
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+/* ----- Pie de página ----- */
+footer {
+    background-color: #2d6a4f;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
