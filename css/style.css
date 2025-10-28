@@ -149,15 +149,3 @@ section {
     border-radius: 10px;
 }
 
-/* RESPONSIVO */
-@media screen and (max-width: 768px) {
-    nav ul {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    main {
-        margin: 20px;
-        padding: 15px;
-    }
-}
